@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1534073828943-f801091bb18c?w=1600') center/cover no-repeat;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+.download-section {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.contact-page {
+    min-height: 100vh;
+    padding-top: 80px;
+    background: #f8f9fa;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+    padding: 12px;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: none;
+}
